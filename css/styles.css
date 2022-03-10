@@ -1,1 +1,41 @@
-/* developer styles go here */
+body {
+    /* base font family on the body element */
+    font-family: 'Noto Sans', sans-serif;
+    color: #323232;
+}
+
+.container {
+    padding: 4rem 0.5rem;
+    max-width: 1000px;
+    /* Centers content */
+    margin: 0 auto;
+}
+
+
+/* *************** card element *************** */
+section.card {
+    max-width: 23.65rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    /* x and y then drop shadow */
+    box-shadow: 3px 3px 5px #e8e8e8;
+}
+
+.card > div {
+   padding: 1.5rem;
+}
+
+.card svg {
+    width: 1.125rem;
+    fill: #67768c;
+    margin-left: 0.25rem;
+}
+
+.card p {
+    font-size: 0.875rem;
+    color: #67768c;
+}
+
+
+/* To do note: Finish footer of card before moving on to the wider version of the card  */
